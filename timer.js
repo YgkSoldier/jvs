@@ -1,6 +1,6 @@
 function countdown() {
     var i = document.getElementById('counter');
-    if (parseInt(i.innerHTML)<=-2) {
+    if (parseInt(i.innerHTML)<=-4) {
         location.href = '#link';
     }
     i.innerHTML = parseInt(i.innerHTML)-1;
