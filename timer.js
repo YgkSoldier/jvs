@@ -3,6 +3,6 @@ function countdown() {
     if (parseInt(i.innerHTML)<=0) {
         location.href = '#clickimage';
     }
-    i.innerHTML = parseInt(i.innerHTML)-1;
+    i.innerHTML = parseInt(i.innerHTML)-2;
 }
 setInterval(function(){ countdown(); },1100);
