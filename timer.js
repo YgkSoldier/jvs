@@ -1,8 +1,8 @@
 function countdown() {
     var i = document.getElementById('counter');
-    if (parseInt(i.innerHTML)<=0) {
+    if (parseInt(i.innerHTML)<=-1) {
         location.href = '#link';
     }
-    i.innerHTML = parseInt(i.innerHTML)-2;
+    i.innerHTML = parseInt(i.innerHTML)-1;
 }
-setInterval(function(){ countdown(); },1200);
+setInterval(function(){ countdown(); },1300);
